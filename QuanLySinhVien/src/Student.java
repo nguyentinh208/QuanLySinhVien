@@ -9,6 +9,10 @@ public class Student {
         this.ngaySinh = ngaySinh;
     }
 
+    public String getMaSV() {
+        return maSV;
+    }
+
     public void hienThi() {
         System.out.println("Ma sinh vien: " + maSV);
         System.out.println("Ho ten: " + hoTen);
