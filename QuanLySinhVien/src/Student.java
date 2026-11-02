@@ -14,7 +14,7 @@ public class Student {
     }
 
     public void hienThi() {
-        System.out.println("Ma SV: " + maSV);
+        System.out.println("Student ID: " + maSV);
         System.out.println("Ho ten: " + hoTen);
         System.out.println("Ngay sinh: " + ngaySinh);
     }
