@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         ArrayList<Student> danhSach = new ArrayList<>();
 
         danhSach.add(new Student("SV001", "Nguyen Van A", "01/01/2005"));
@@ -13,7 +12,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nhap ma sinh vien can tim: ");
-        String maCanTim = sc.nextLine();
+        String maCanTim = sc.nextLine().trim();
 
         boolean timThay = false;
 
